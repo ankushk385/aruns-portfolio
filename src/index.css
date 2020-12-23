@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 8px;
+
+  transition: all 0.2s ease-in;
+}
+.navbar:hover {
+  box-shadow: 0px 2px rgb(47, 60, 60);
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in;
+}
+
+.navbar a:hover {
+  color: #102a3b;
+}
+
+.is_active {
+  font-weight: bold;
+  font-size: large;
+  color: rgb(3, 4, 73);
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.balls {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; /* hrizontal */
+}
+.balls ul {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.balls ul li {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  border-radius: 50px;
+  margin: 20px;
+  animation: bounce 1s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.balls ul li:nth-child(1) {
+  animation-delay: 0.3s;
+  background-color: rgb(55, 49, 59);
+}
+.balls ul li:nth-child(2) {
+  animation-delay: 0.5s;
+  background-color: rgb(104, 84, 55);
+}
+.balls ul li:nth-child(3) {
+  animation-delay: 0.1s;
+  background-color: rgb(148, 76, 231);
+}
+.balls ul li:nth-child(4) {
+  animation-delay: 0.9s;
+  background-color: rgb(73, 177, 70);
+}
+.balls ul li:nth-child(5) {
+  animation-delay: 0.2s;
+  background-color: rgb(161, 27, 45);
+}
+.card {
+  margin: 42px;
+  border: 8px solid black;
+}
+
+/* grid display  */
+
+.maindiv {
+  width: 90%;
+  border: 2px solid black;
+  display: grid;
+  margin: 100px;
+
+  grid-template-rows: 150px 150px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
+  grid-gap: 20px;
+  grid-auto-rows: 150px;
+}
+
+.div1 {
+  background-color: blue;
+  padding: 20px;
+}
+.div2 {
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.div3 {
+  background-color: pink;
+}
+.div4 {
+  background-color: orange;
+}
+.div5 {
+  background-color: brown;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.div6 {
+  background-color: purple;
+}
+
+/* grid display  */
+.cont1 {
+  border: 2px solid black;
+}
+.sp {
+  margin-top: 100px;
+}
