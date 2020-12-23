@@ -21,7 +21,7 @@ function home() {
                 <div className="col-md-6 pt-5 d-flex pt-lg-0 justify-content-center flex-column">
                   <h1>
                     Do Your Buisness With{" "}
-                    <strong className="text-primary">Ankush's projects</strong>
+                    <strong className="text-primary">Arun kumar</strong>
                   </h1>
                   <h2 className="my-3">
                     we are the team of 2 people making websites.
