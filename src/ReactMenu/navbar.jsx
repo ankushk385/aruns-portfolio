@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 function navbar() {
   return (
-    <div className="container-fluid nav_bg">
+    <div className="container-fluid nav_bg navbar-light">
       <div className="row">
         <div className="col-10 mx-auto">
           <nav className="navbar navbar-expand-lg ">
