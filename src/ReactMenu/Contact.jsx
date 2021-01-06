@@ -22,7 +22,7 @@ function Contact() {
     console.log(data.name);
   };
   return (
-    <div>
+    <div className="pages">
       <div className="container my-5">
         <div className="row">
           <div className="form col-10 mx-auto">

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function services() {
   return (
     <>
-      <div>
+      <div className="pages">
         <div className="container d-flex sp col-sm-12">
           <div class="card-body">
             <img src={img1} class="card-img-top" alt="..." />

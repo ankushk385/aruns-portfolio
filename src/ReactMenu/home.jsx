@@ -4,17 +4,19 @@ import { NavLink } from "react-router-dom";
 
 function home() {
   return (
-    <div>
+    <div className="pages">
       <section id="header" className="d-flex">
         <div className="container-fluid ">
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-lg-6 order-1 header-img">
+                <div className="col-lg-6 order-1 header-img my-5">
                   <img
                     src={laptop}
                     className="img-fluid animated"
                     alt="home img"
+                    height="700px"
+                    width="700px"
                   ></img>
                 </div>
 
