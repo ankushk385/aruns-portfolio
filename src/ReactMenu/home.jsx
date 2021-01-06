@@ -1,5 +1,5 @@
 import React from "react";
-import laptop from "./images/laptop.png";
+import laptop from "./images/laptop.jpg";
 import { NavLink } from "react-router-dom";
 
 function home() {
